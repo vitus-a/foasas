@@ -148,7 +148,7 @@ td {
 }
 
 .footer {
-	background-color: #FFF;
+	background-color: white;
     padding-top:30px;
 	padding-bottom:20px;
 	margin-left: auto;
@@ -158,8 +158,8 @@ td {
 }
 
 .bibbase_group {
-  color: #e8e8e8;
-  border-top: 1px solid #e8e8e8;
+  color: white;
+  border-top: 1px solid white;
   padding-top: 1rem;
   margin-top: 2rem;
   margin-bottom: -2rem;
@@ -224,7 +224,7 @@ img.bibbase_icon {
 /* } */
 
 .bibbase_code {
-  width: 80%
+  width: 100%
 }
 
 .comment {
@@ -241,7 +241,7 @@ img.bibbase_icon {
 
 .bibbase_msg {
   text-align: center;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
