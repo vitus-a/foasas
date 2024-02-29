@@ -158,14 +158,15 @@ td {
 }
 
 .bibbase_group {
-  color: white;
-background-color: white;
+  font-style:normal;
+	color: white;
+  background-color: white;
   border-top: 1px solid white;
   padding-top: 1rem;
   margin-top: 2rem;
   margin-bottom: -2rem;
-  text-align: right;
-  font-size: xx-large;
+  text-align: left;
+  font-size: 20px;
   outline: 0px;
 }
 
