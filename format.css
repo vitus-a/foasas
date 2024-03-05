@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('pfad/zu/Montserrat-Regular.otf') format('otf');
+}
+
+
 body {
         font-family:'MontserratRegular', serif;
         background-color: #FFF;
