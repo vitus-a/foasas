@@ -30,20 +30,20 @@
     top: 7px;
     transition: all 0.3s ease-in;
 }
-#top-nav a.active:not([href="#landing"]) {
+#top-nav a.active:not([href="#maintitle"]) {
     background: rgba(255,255,255,0.4);
 }
-#top-nav a.active[href="#landing"] img {
+#top-nav a.active[href="#maintitle"] img {
     visibility: hidden;
     opacity: 0;
 }
-#top-nav a[href="#landing"] img {
+#top-nav a[href="#maintitle"] img {
     height: 36px;
     margin-top: -20px;
     top: 11px;
     position: relative;
 }
-#top-nav a[href="#landing"] span {
+#top-nav a[href="#maintitle"] span {
     display: none;
 }
 #top-nav #collapse {
@@ -96,10 +96,10 @@
     #top-nav li a:hover {
         background: rgba(255,255,255,0.3);
     }
-    #top-nav a[href="#landing"] img {
+    #top-nav a[href="#maintitle"] img {
         display: none;
     }
-    #top-nav a[href="#landing"] span {
+    #top-nav a[href="#maintitle"] span {
         display: inline;
     }
 }
