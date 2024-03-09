@@ -71,7 +71,7 @@
     width: 4px;
     height: 4px;
     margin: 2px;
-    background-color: #582;
+    background-color: #fff;
     transition: width .2s ease-out;
 }
 
@@ -129,7 +129,7 @@
         font-size: 16px;
     }
     .top-nav li a:hover {
-        background: #582;
+        background: #8B1;
     }
     .top-nav a[href="#landing"] img {
         display: none;
