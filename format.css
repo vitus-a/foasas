@@ -132,7 +132,7 @@
 
 
 /*********
- * Rest   *
+ * Main part   *
  *********/
 
 body {
@@ -140,7 +140,7 @@ body {
         background-color: #FFF;
         font-size:16px;
         color: #000;
-		line-height:1.5;
+	line-height:1.5;
 }
 
 body a {
@@ -210,7 +210,7 @@ table {
     max-width:600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top:10px;
+    /*margin-top:10px;*/
 }
 
 
@@ -299,6 +299,12 @@ td {
 	text-align:center;
     font-size:14px;
 }
+
+
+
+/*********
+ * Bibbase   *
+ *********/
 
 .bibbase_group {
   font-style:normal;
