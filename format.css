@@ -38,17 +38,17 @@
 .top-nav a.active:not([href="#landing"]) {
     background: rgba(255,255,255,0.4);
 }
-.top-nav a.active[href="#maintitle"] img {
+.top-nav a.active[href="#landing"] img {
     top: -50px;
 }
-.top-nav a[href="#maintitle"] img {
+.top-nav a[href="#landing"] img {
     height: 36px;
     margin-top: -20px;
     top: 11px;
     position: relative;
     transition: top 0.3s ease-in;
 }
-.top-nav a[href="#maintitle"] span {
+.top-nav a[href="#landing"] span {
     display: none;
 }
 .top-nav #collapse {
@@ -119,10 +119,10 @@
     .top-nav li a:hover {
         background: rgba(255,255,255,0.3);
     }
-    .top-nav a[href="#maintitle"] img {
+    .top-nav a[href="#landing"] img {
         display: none;
     }
-    .top-nav a[href="#maintitle"] span {
+    .top-nav a[href="#landing"] span {
         display: inline;
     }
 }
