@@ -13,7 +13,8 @@
     position: fixed;
     height: 3rem;
     width: 100%;
-    padding-left: 50px;
+    padding-left: auto;
+    padding-right: auto;
     z-index: 100;
     overflow: hidden;
 }
