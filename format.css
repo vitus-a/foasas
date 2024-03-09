@@ -15,7 +15,7 @@
     width: 100%;
     padding-left: 50px;
     z-index: 100;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .top-nav ul {
     display: flex;
@@ -73,7 +73,7 @@
         width: calc(100vw - 48px);
         height: auto;
         flex-direction: column;
-        background: rgba(0,0,0,0.9);
+        background: #222;
         position: absolute;
         top: 0px;
         margin: 0;
@@ -96,7 +96,7 @@
         margin: 3px;
     }
     .top-nav:hover ul, .top-nav:focus-within ul{
-        transform: translateX(48px);
+        transform: translateX(4);
     }
     .top-nav:hover ul:after {
         content: "";
@@ -117,7 +117,7 @@
         font-size: 16px;
     }
     .top-nav li a:hover {
-        background: rgba(255,255,255,0.3);
+        background: ##693;
     }
     .top-nav a[href="#landing"] img {
         display: none;
