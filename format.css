@@ -41,7 +41,7 @@
     align-items: center;
 }
 .top-nav li a {
-    color: #ddd;
+    color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
     transition: all 0.3s ease-in;
@@ -71,7 +71,7 @@
     width: 4px;
     height: 4px;
     margin: 2px;
-    background-color: #222;
+    background-color: #fff;
     transition: width .2s ease-out;
 }
 
