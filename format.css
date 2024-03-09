@@ -25,7 +25,9 @@
     position: fixed;
     height: 3rem;
     width: 100%;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+	margin-left: auto;
+    margin-right: auto;
     z-index: 100;
     overflow: hidden;
 }
