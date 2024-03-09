@@ -22,6 +22,8 @@
     display: flex;
     list-style: none;
     align-items: stretch;
+    padding-left: auto;
+    padding-right: auto;
     margin: 0;
     height: 100%;
 }
