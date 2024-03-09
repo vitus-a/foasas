@@ -9,7 +9,7 @@
  *********/
 
 .top-nav {
-    background: rgba(0,0,0,0.7);
+    background: #693;
     position: fixed;
     height: 3rem;
     width: 100%;
@@ -29,7 +29,7 @@
     align-items: center;
 }
 .top-nav li a {
-    color: #ddd;
+    color: #222;
     text-decoration: none;
     font-size: 1.5rem;
     transition: all 0.3s ease-in;
