@@ -96,7 +96,7 @@
         margin: 3px;
     }
     .top-nav:hover ul, .top-nav:focus-within ul{
-        transform: translateX(48px;
+        transform: translateX(48px);
     }
     .top-nav:hover ul:after {
         content: "";
