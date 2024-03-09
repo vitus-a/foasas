@@ -15,7 +15,7 @@
     width: 100%;
     padding-left: 50px;
     z-index: 100;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .top-nav ul {
     display: flex;
