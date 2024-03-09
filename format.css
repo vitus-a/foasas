@@ -145,6 +145,12 @@ body a {
 	text-decoration:none;
 }
 
+section {
+    min-height: 100vh;
+    border-bottom: 1px solid transparent;
+    padding-top: 3em;
+}
+
 h1 {
 	color:#693;
 	font-size:36px;
