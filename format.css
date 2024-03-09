@@ -36,7 +36,7 @@
     padding: 1rem 2ch;
 }
 .top-nav a.active:not([href="#landing"]) {
-    background: #693;
+    background: #fff;
 }
 .top-nav a.active[href="#landing"] img {
     top: -50px;
@@ -73,7 +73,7 @@
         width: calc(100vw - 48px);
         height: auto;
         flex-direction: column;
-        background: #693;
+        background: #fff;
         position: absolute;
         top: 0px;
         margin: 0;
@@ -96,7 +96,7 @@
         margin: 3px;
     }
     .top-nav:hover ul, .top-nav:focus-within ul{
-        transform: translateX(4);
+        transform: translateX(48px;
     }
     .top-nav:hover ul:after {
         content: "";
