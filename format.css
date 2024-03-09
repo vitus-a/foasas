@@ -36,7 +36,7 @@
     padding: 1rem 2ch;
 }
 .top-nav a.active:not([href="#landing"]) {
-    background: rgba(255,255,255,0.4);
+    background: #693;
 }
 .top-nav a.active[href="#landing"] img {
     top: -50px;
@@ -59,7 +59,7 @@
     width: 4px;
     height: 4px;
     margin: 2px;
-    background-color: #fff;
+    background-color: #222;
     transition: width .2s ease-out;
 }
 
@@ -73,7 +73,7 @@
         width: calc(100vw - 48px);
         height: auto;
         flex-direction: column;
-        background: #222;
+        background: #693;
         position: absolute;
         top: 0px;
         margin: 0;
