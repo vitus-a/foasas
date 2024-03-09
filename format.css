@@ -48,7 +48,7 @@ body a {
     display: flex;
     justify-content: center;
     list-style: none;
-    align-items: stretch;
+    align-items: center;
     margin: 0;
     height: 100%;
 }
