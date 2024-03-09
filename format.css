@@ -146,7 +146,7 @@ body a {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 50vh;
     border-bottom: 1px solid transparent;
     padding-top: 3em;
 }
