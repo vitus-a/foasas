@@ -9,11 +9,7 @@ body {
         font-size:16px;
         color: #000;
 	line-height:1.5;
-	/*  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-} */
 
 body a {
 	color:#693;
@@ -61,7 +57,7 @@ body a {
 .top-nav li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: all 0.3s ease-in;
     padding: 1rem 2ch;
 }
