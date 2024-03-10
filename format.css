@@ -40,7 +40,7 @@ body a {
     position: fixed;
     height: 3rem;
     width: 100%;
-    padding-left: 50px;
+    margin-left: 50px;
     z-index: 100;
     overflow: hidden;
 }
