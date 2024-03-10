@@ -9,11 +9,11 @@ body {
         font-size:16px;
         color: #000;
 	line-height:1.5;
-	  box-sizing: border-box;
+	/*  box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
-}
+} */
 
 body a {
 	color:#693;
@@ -61,7 +61,7 @@ body a {
     text-decoration: none;
     font-size: 1.1rem;
     transition: all 0.3s ease-in;
-    padding: 1rem 2ch;
+    /* padding: 1rem 2ch; */
 }
 .top-nav a.active:not([href="#landing"]) {
     background: #8B1;
@@ -201,10 +201,10 @@ a {
 
 table {
 	font-family:'MontserratRegular', sans-serif;
-    background-color: #FFF;
+    	background-color: #FFF;
 	text-align:justify;
-    font-size:16px;
-    color: #000;
+    	font-size:16px;
+    	color: #000;
 	line-height:1.5;
 }
 
@@ -224,7 +224,6 @@ table {
     max-width:600px;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top:10px;*/
 }
 
 
