@@ -3,6 +3,10 @@
   src: url('Montserrat-Regular.otf') format('opentype');
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
         font-family: MontserratRegular, sans-serif;
         background-color: #FFF;
