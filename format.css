@@ -434,5 +434,8 @@ img.bibbase_icon {
   font-size: smaller;
 }
 
+.form-control {
+  max-width: 60%;
+}
 
 
