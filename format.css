@@ -290,7 +290,7 @@ margin-bottom: 0px;
 
 .content {
   display: none;
-  overflow: hidden;
+  overflow: visible;
 margin-bottom:10px;
 }
 
