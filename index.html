@@ -1425,6 +1425,24 @@ UniorPress is the University Press of the University of Naples "L'Orientale" and
 <p>The above list is updated on an ongoing basis. If you are an editor (see <a href="index.html#p7">&sect;7</a> of the <a href="index.html#manifesto">FOASAS Manifesto</a>) and would like to see your FOA journal included in the list, please write to <script>mail2("contact","foasas",1,"","contact|at|foasas.org")</script> and provide the necessary information as shown in the entries above.</p>
 </section>
 
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+<!--
 <section id="publications"> 
 <div class="centered"><hr style="width:40%" color="#693">
  <h2>Publications</h2>
@@ -1439,24 +1457,8 @@ It sometimes takes a while for the list to be generated and displayed, and there
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-group%2FFOASAS%2F5595087&jsonp=1&authorFirst=1&fullnames=1&sort=-urldate&commas=true&urlLabel=website&theme=mila&showSearch=true&css=https://github.com/vitus-a/foasas/blob/main/format.css"></script> 
  
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
 </section>
+-->
 
 <section id="contact">
  <div class="centered"><hr style="width:40%" color="#693">
